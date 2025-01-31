@@ -8,7 +8,7 @@ class Cow extends Animal {
         System.out.println("Cows live on a farm.");
         }
     @Override    
-    void typesOf() {
+    public void typesOf() {
         String[] types = {"Holstein", "Hereford", "Jersey"};
         System.out.print("This is a type of cow: ");
         for (String x : types) {
